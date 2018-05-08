@@ -25,7 +25,7 @@ int main() {
 			count++;
 			switch (direction)
 			{
-			case 0: //©¹¥k
+			case 0: //å¾€å³
 				if (y < widthTmp - 1) y += 1;
 				else
 				{
@@ -35,7 +35,7 @@ int main() {
 					direction = 1;
 				}
 				break;
-			case 1: //©¹¤U
+			case 1: //å¾€ä¸‹
 				if (x < lengthTmp - 1) x += 1;
 				else
 				{
@@ -44,7 +44,7 @@ int main() {
 					direction = 2;
 				}
 				break;
-			case 2: //©¹¥ª
+			case 2: //å¾€å·¦
 				if (y > yTmp) y -= 1;
 				else
 				{
@@ -53,7 +53,7 @@ int main() {
 					direction = 3;
 				}
 				break;
-			case 3: //©¹¤W
+			case 3: //å¾€ä¸Š
 				if (x > xTmp) x -= 1;
 				else
 				{

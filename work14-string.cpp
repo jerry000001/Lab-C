@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <stdlib.h>
 #include<sstream>
 #include <vector>
@@ -9,7 +9,7 @@ string toString(char s);
 int main() {
 	string str;
 	int input;
-	cout << "choose function¡G";
+	cout << "choose functionï¼š";
 	cin >> input;
 	int size, bit, count;
 	if (input == 1)
@@ -43,7 +43,7 @@ int main() {
 		getline(cin, str);
 		stringstream ss(str);
 		string line;
-		while (getline(ss, line, ' '))//«öªÅ®æ¤À³Î  
+		while (getline(ss, line, ' '))//æŒ‰ç©ºæ ¼åˆ†å‰²  
 		{
 			if (!line.empty())
 				cout << line << "[" << line.length() << "] ";

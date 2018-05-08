@@ -1,11 +1,11 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <iomanip>
 using namespace std;
 struct fraction 
 {
 private:
-	int num; // ¤À¤l
-	int den; // ¤À¥À
+	int num; //åˆ†å­
+	int den; //åˆ†æ¯
 public:
 	fraction(int n, int d)
 	{
@@ -27,16 +27,16 @@ public:
 		else
 			cout << this->num << ", " <<this->den << endl;
 	}	
-	operator int()// §â¤À¼ÆÂà´«¦¨ int
+	operator int()//int
 	{
 		return this->num / this->den;
 	}
-	operator double()//§â¤À¼ÆÂà´«¦¨ double
+	operator double()//double
 	{
 		double tmp = (static_cast<double>(this->num) / static_cast<double>(this->den));
 		return tmp;
 	}
-	operator float()//§â¤À¼ÆÂà´«¦¨ float
+	operator float()//float
 	{
 		float tmp = (static_cast<float>(this->num) / static_cast<float>(this->den));
 		return tmp;
